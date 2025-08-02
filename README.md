@@ -52,38 +52,26 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 3. Install dependencies
 ```bash
-Copy
-Edit
 pip install -r requirements.txt
 ```
 4. Prepare data & window sequences
 ```bash
-Copy
-Edit
 python run_windowing.py
 ```
 5. Train the model
 ```bash
-Copy
-Edit
 python run_training.py
 ```
 6. Evaluate model performance
 ```bash
-Copy
-Edit
 python evaluate.py
 ```
 7. Run predictions
 ```bash
-Copy
-Edit
 python predict.py
 ```
 8. Launch Streamlit app
 ```bash
-Copy
-Edit
 streamlit run app.py
 Open http://localhost:8501 in your browser to use the app.
 ```
@@ -108,20 +96,10 @@ Overall RMSE: e.g., 5.4 degrees / units
 
 Feature-specific metrics are displayed in the evaluation report.
 
-## ✨ Future Improvements
-Incorporate more advanced architectures like Transformers for improved accuracy.
-
-Add real-time weather API integration for live updates.
-
-Deploy the Streamlit app on cloud platforms for easy access.
-
-Expand to multi-city forecasting using transfer learning.
-
 ## 📞 Contact
 Developed by Rahul Pandey
-Email: rahulpandey@example.com
-GitHub: https://github.com/yourusername
-
+Email: rahulp.2102004@gmail.com
+GitHub: https://github.com/rahul-9k
 
 Feel free to star ⭐ the repo if you find it helpful!
 
